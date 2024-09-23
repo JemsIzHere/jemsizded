@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Maranion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body class="flex bg-dark">
+    <nav class="w-1/6 bg-lighter-dark h-screen flex flex-col items-center justify-center sticky top-0">
+
+        <div class="wrapper">
+            <img class="w-52 h-52 rounded-full overflow-hidden border-solid border-8 border-dark-border m-4" src="img/profile_pic.jpg" alt="lmao">
+
+            <div class="hyperlinks flex flex-col items-center justify-center font-sen text-light">
+            <!-- hover lighter light -->
+            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#about">About</a>
+
+            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#projects">Projects</a>
+
+            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#contact">Contact</a>
+
+            <!-- Lightmode here -->
+        </div>
+        </div>
+
+    </nav>
+    <main class="w-5/6 ml-8 flex flex-col">
+
+         <section class="about font-sen text-light h-screen flex flex-col justify-center" id="about">
+
+            <h1 class="font-playfair text-white text-7xl font-semibold">
+                James 
+                <span class="text-light-pink">Maranion</span>
+            </h1>
+
+            <p class="first mt-8 text-lg w-1/2">
+                James Maranion or  
+                <span class="text-light-pink">Jems</span> is a developer who graduated from <br>
+                De Lasalle College of Saint Benilde, with a degree in Information Systems. <br> <br>
+                His excitement for developing computer programs stems from a deep fascination on how 
+                computers work and how they can be harnessed to solve problems. 
+                <br><br>
+                Currently, he is interested in the field of data science and visualization, where he sees a unique opportunity 
+                to combine his programming skills with statistical analysis and data visualization. 
+                
+            </p>
+         </section>
+         <section class="projects font-sen text-white h-auto" id="projects">
+            <h1 class="font-playfair text-6xl font-semibold mb-10">Projects</h1>
+
+            <div class="project_area grid grid-cols-2 h-auto ">
+                
+                <div class="project_card"> 
+                    <div class="img-div h-4/5 overflow-hidden mr-3">
+                        <a href="project.html?project=1" class="project-link">
+                            <img  class="rounded-lg h-full w-full ease-in duration-150 hover:scale-110" src="img/finals_pic.PNG" alt="">
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="text-area w-2/3 mt-5">
+                        <h1 class="font-playfair text-xl font-semibold text-white">Students Adaptability in an Online Setting Report</h1>
+                        <p class="font-sen text-base text-light">
+                            A PowerBi report that explores the different factors that affect a student in an online setting.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div class="project_card mr-8">
+                    <div class="img-div h-4/5 overflow-hidden">
+                        <a href="project.html?project=2" class="project-link">
+                            <img  class="rounded-md h-full ease-in duration-150 hover:scale-110" src="img/datachall.PNG" alt="">
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="text-area w-4/5 mt-5">
+                        <h1 class="font-playfair text-xl font-semibold text-white">Data Sci Challenge</h1>
+                        <p class="font-sen text-base text-light">
+                            An android and web app that helps the user track and manage their blood pressure.
+                            
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="project_area_2 h-auto flex mt-20">
+
+                <div class="project_card mr-3">
+                    <div class="img-div h-4/5 overflow-hidden">
+                        <a href="project.html?project=2" class="project-link">
+                            <img  class="rounded-md h-full w-full ease-in duration-150 hover:scale-110" src="img/world-happ.png" alt="">
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="text-area w-4/5 mt-5">
+                        <h1 class="font-playfair text-xl font-semibold text-white">World Happiness Report</h1>
+                        <p class="font-sen text-base text-light">
+                            A PowerBi report that looks at the different factors that affect the happiness of a country from 2015 to 2019.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project_card mr-8">
+                    <div class="img-div h-4/5 overflow-hidden">
+                        <a href="project.html?project=2" class="project-link">
+                            <img  class="rounded-md ease-in duration-150 hover:scale-110" src="img/hartcheck.PNG" alt="">
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="text-area w-4/5 mt-5 ">
+                        <h1 class="font-playfair text-xl font-semibold text-white">HartCheck</h1>
+                        <p class="font-sen text-base text-light">
+                            An android and web app that helps the user track and manage their blood pressure.
+                        </p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            
+         </section>
+         <section class="about font-sen text-light h-screen flex flex-col justify-center" id="contact">
+            <h1 class="font-playfair text-6xl font-semibold mt-10">Contact</h1>
+            <p class="email mt-10 text-light-pink text-lg">
+                jems.maranion13@gmail.com
+            </p>
+            <a href="assets/resume.pdf" class="text-light dl-resume text-xl mt-10 z-10 transition-colors duration-200 hover:text-light-pink">Resume↗</a>
+            <a href="https://www.linkedin.com/in/james-maranion-087727253/" class="dl-resume text-light text-xl mt-8 z-10 transition-colors duration-200 hover:text-light-pink">LinkedIn↗</a>
+         </section>
+            
+
+    </main>
+</body>
+</html>
