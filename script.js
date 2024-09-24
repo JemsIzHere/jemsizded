@@ -46,7 +46,7 @@ const projects = {
         title: "HärtCheck: A Mobile and Web App for Blood Pressure Monitoring",
         date: "March 2024",
         location: "De Lasalle College of Saint Benilde",
-        img: "img/hartcheck.PNG",
+        img: "img/hartcheck.png",
         description_header: "HärtCheck is a mobile and web application designed to monitor a user's blood pressure and provide them with convenient access to doctor consultations.",
         description: "HärtCheck allows users and doctors to monitor blood pressure, receive real-time alerts, and schedule doctor consultations. The app offers a user-friendly interface that simplifies blood pressure tracking, making it easy for users to log their readings and view trends over time. ",
         contribution: "Contribution: <br> UX/UI Design, Research, Mobile and Web Development",
