@@ -29,7 +29,7 @@ const projects = {
         description: "The group utilized RFM (Recency, Frequency, Monetary) analysis, time series analysis, and K-means clustering. <br> The group leveraged data science techniques to drive actionable business insights, ultimately enhancing customer satisfaction and loyalty as they gained hands-on experience with these data science techniques in a practical context.",
         contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Model Development, Data Analysis</span>",
         dataset:'',
-        repository: "<a href='https://github.com/user/project2'>Repository Link</a>"
+        repository: "<a href='https://github.com/JemsIzHere/data_science_challenge.git'>Repository Link</a>"
     },
     3: {
         title: "World Happiness Report",
