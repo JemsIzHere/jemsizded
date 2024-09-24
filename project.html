@@ -10,16 +10,17 @@
 </head>
 <body class="bg-dark h-screen">
     <main class="bg-lighter-dark rounded-xl m-3 h-auto">
-        <nav class="bg-lighter-dark rounded-xl flex items-center justify-center sticky top-0 h-16">
-            <div class="wrapper grid grid-cols-2 w-full">
-                <a href="index.html"><h1 class="text-light font-playfair font-semibold text-3xl ml-5">Jems<span class="text-light-pink">IzDed</span></h1></a>
-                <div class="hyperlinks flex flex-row items-center justify-end font-sen text-light mr-5 space-x-10">
+        <nav class="xs:bg-lighter-dark rounded-xl flex flex-col xs:flex-row items-center justify-center xs:sticky top-0 h-32 xs:h-16">
+            <div class="wrapper xs:grid xs:grid-cols-2 xs:justify-center w-full">
+                <a href="index.html"><h1 class="text-light font-playfair font-semibold text-3xl ml-8 mr-8 xs:ml-5 xs:mr-5 xs:text-left mb-10 xs:mb-0">Jems<span class="text-light-pink">IzDed</span></h1></a>
+                
+                <div class="hyperlinks flex flex-row items-center justify-center xs:justify-end font-sen text-light mr-3 xs:mr-5 space-x-10">
     
-                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#about">About</a>
+                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="index.html#about">About</a>
     
-                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#projects">Projects</a>
+                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="index.html#projects">Projects</a>
     
-                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#contact">Contact</a>
+                    <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="index.html#contact">Contact</a>
     
                 </div>
 
@@ -27,16 +28,16 @@
     
         </nav>
 
-        <section id="content" class="mt-20 flex flex-row justify-center ">
+        <section id="content" class="mt-32 sm:mt-20 flex flex-row justify-center ">
             
             <div class="main-content flex flex-col w-4/5 mb-40">
 
-                <div id="project_header" class="flex mb-5">
-                    <div id="project_title" class="w-5/6">
-                        <h1 id="title" class="font-sen text-3xl font-semibold text-light-pink mb-2"></h1>
+                <div id="project_header" class="flex sm:flex-row flex-col sm:flex-none mb-8 sm:mb-5">
+                    <div id="project_title" class="w-full sm:w-5/6">
+                        <h1 id="title" class="font-sen text-2xl sm:text-3xl font-semibold text-light-pink mb-5 sm:mb-2"></h1>
                         <p id="location" class="font-sen text-base text-light"></p>
                     </div>
-                    <div class="flex flex-row-reverse items-end w-1/2">
+                    <div class="flex sm:flex-row-reverse sm:items-end sm:w-1/2">
                         <p id="date" class="font-sen text-base text-light"></p>
                     </div>
                 </div>
@@ -45,14 +46,14 @@
     
                 </div>
     
-                <div id="project_description" class="mt-10 font-sen flex flex-row">
-                    <div class="desc w-3/5">
-                        <div id="description_header" class="text-white text-2xl font-medium"></div>
+                <div id="project_description" class="mt-10 font-sen flex flex-col sm:flex-row">
+                    <div class="desc w-full sm:w-3/5">
+                        <div id="description_header" class="text-white text-lg sm:text-2xl font-medium"></div>
                         <div id="description" class="text-light mt-4"></div>
                     </div>
                     
-                    <div id="others" class=" text-white w-2/5">
-                        <div class="other_info ml-32">
+                    <div id="others" class=" text-white w-full sm:w-2/5">
+                        <div class="other_info mt-10 sm:ml-32">
                             <div id="contribution" class="mb-4"></div>
                             <div id="repository" class="mb-2 transition-colors duration-200 hover:text-light-pink"></div>
                             <div id="dataset" class="mb-2 transition-colors duration-200 hover:text-light-pink"></div>

@@ -29,7 +29,7 @@ const projects = {
         description: "The group utilized RFM (Recency, Frequency, Monetary) analysis, time series analysis, and K-means clustering. <br> The group leveraged data science techniques to drive actionable business insights, ultimately enhancing customer satisfaction and loyalty as they gained hands-on experience with these data science techniques in a practical context.",
         contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Model Development, Data Analysis</span>",
         dataset:'',
-        repository: "<a href='https://github.com/user/project2'>Repository</a>"
+        repository: "<a href='https://github.com/user/project2'>Repository Link</a>"
     },
     3: {
         title: "World Happiness Report",
@@ -43,15 +43,15 @@ const projects = {
         repository: "<a href='assets/World_Happiness_Report.pbix'>Report Link</a>"
     },
     4: {
-        title: "HärtCheck: A Mobile and Web App for Blood Pressure Monitoring and Doctor Consultations in Manila City.",
+        title: "HärtCheck: A Mobile and Web App for Blood Pressure Monitoring",
         date: "March 2024",
         location: "De Lasalle College of Saint Benilde",
         img: "img/hartcheck.PNG",
-        description_header: "HärtCheck is a mobile and web application designed to empower residents of Manila City with effective blood pressure monitoring and convenient access to doctor consultations.",
+        description_header: "HärtCheck is a mobile and web application designed to monitor a user's blood pressure and provide them with convenient access to doctor consultations.",
         description: "HärtCheck allows users and doctors to monitor blood pressure, receive real-time alerts, and schedule doctor consultations. The app offers a user-friendly interface that simplifies blood pressure tracking, making it easy for users to log their readings and view trends over time. ",
         contribution: "Contribution: <br> UX/UI Design, Research, Mobile and Web Development",
         dataset:"",
-        repository: "<a href='https://github.com/JanTalanay/HartCheckWeb'>Repository</a>"
+        repository: "<a href='https://github.com/JanTalanay/HartCheckWeb'>Repository Link</a>"
     }
 };
 
