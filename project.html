@@ -9,11 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body class="bg-dark h-screen">
-    <main class="bg-lighter-dark rounded-xl m-3 h-4/5">
-        <nav class="flex items-center justify-center sticky h-16">
-
+    <main class="bg-lighter-dark rounded-xl m-3 h-auto">
+        <nav class="bg-lighter-dark rounded-xl flex items-center justify-center sticky top-0 h-16">
             <div class="wrapper grid grid-cols-2 w-full">
-                <h1 class="text-light font-playfair font-semibold text-3xl ml-5">Jems<span class="text-light-pink">IzDed</span></h1>
+                <a href="index.html"><h1 class="text-light font-playfair font-semibold text-3xl ml-5">Jems<span class="text-light-pink">IzDed</span></h1></a>
                 <div class="hyperlinks flex flex-row items-center justify-end font-sen text-light mr-5 space-x-10">
     
                     <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#about">About</a>
@@ -22,35 +21,47 @@
     
                     <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#contact">Contact</a>
     
-                <!-- Lightmode here -->
                 </div>
 
             </div>
     
         </nav>
 
-        <section id="content" class="content">
+        <section id="content" class="mt-20 flex flex-row justify-center ">
+            
+            <div class="main-content flex flex-col w-4/5 mb-40">
 
-            <div id="project_header">
-                <h1 id="title"></h1>
-                <p id="date"></p>
-
-            </div>
-            <div id="location">
-
-            </div>
-            <div id="img">
-
-            </div>
-
-            <div id="project_description">
-                <div id="description"></div>
-                <div id="others">
-                    <div id="contribution"></div>
-                    <div id="repository"></div>
+                <div id="project_header" class="flex mb-5">
+                    <div id="project_title" class="w-5/6">
+                        <h1 id="title" class="font-sen text-3xl font-semibold text-light-pink mb-2"></h1>
+                        <p id="location" class="font-sen text-base text-light"></p>
+                    </div>
+                    <div class="flex flex-row-reverse items-end w-1/2">
+                        <p id="date" class="font-sen text-base text-light"></p>
+                    </div>
                 </div>
+                
+                <div id="img" class="w-full overflow-hidden flex flex-row justify-center">
+    
+                </div>
+    
+                <div id="project_description" class="mt-10 font-sen flex flex-row">
+                    <div class="desc w-3/5">
+                        <div id="description_header" class="text-white text-2xl font-medium"></div>
+                        <div id="description" class="text-light mt-4"></div>
+                    </div>
+                    
+                    <div id="others" class=" text-white w-2/5">
+                        <div class="other_info ml-32">
+                            <div id="contribution" class="mb-4"></div>
+                            <div id="repository" class="mb-2 transition-colors duration-200 hover:text-light-pink"></div>
+                            <div id="dataset" class="mb-2 transition-colors duration-200 hover:text-light-pink"></div>
+                            <div id="references"></div>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
-
         </section>
 
     </main>
