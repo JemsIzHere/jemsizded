@@ -9,34 +9,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body class="flex bg-dark">
-    <nav class="w-1/6 bg-lighter-dark h-screen flex flex-col items-center justify-center sticky top-0">
+<body class="bg-dark flex flex-col lg:flex-row w-screen">
+    <nav class="bg-lighter-dark flex flex-col items-center justify-center relative top-0 rounded-b-2xl h-32 w-screen  lg:rounded-none lg:sticky lg:w-1/6 lg:h-screen">
 
-        <div class="wrapper">
-            <img class="w-52 h-52 rounded-full overflow-hidden border-solid border-8 border-dark-border m-4" src="img/profile_pic.jpg" alt="lmao">
+        <div class="wrapper flex flex-row lg:flex-col w-screen ml-8 lg:ml-0 lg:w-5/6">
 
-            <div class="hyperlinks flex flex-col items-center justify-center font-sen text-light">
+            <div class="img-container flex items-center justify-center w-1/6 lg:w-full">
 
-            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#about">About</a>
+                <img class="border-dark-border rounded-full overflow-hidden border-solid border-4 m-auto w-28 h-28" src="img/profile_pic.jpg" alt="lmao">
+                
+            </div>
 
-            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#projects">Projects</a>
+            <div class="hyperlinks text-light font-sen items-center justify-end mr-12 lg:mr-0 lg:justify-center flex lg:flex-col space-x-5 lg:space-x-0 w-full lg:mt-5">
 
-            <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#contact">Contact</a>
+                <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#about">About</a>
 
-        </div>
+                <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#projects">Projects</a>
+
+                <a class="text-xl font-semibold tracking-wider z-10 transition-colors duration-200 hover:text-light-pink" href="#contact">Contact</a>
+
         </div>
 
     </nav>
-    <main class="w-5/6 ml-8 flex flex-col">
+    
+    <main class="w-full lg:w-5/6 flex flex-col ">
 
-         <section class="about font-sen text-light h-screen flex flex-col justify-center" id="about">
+         <section class="about font-sen text-light ml-8 mr-8 flex flex-col h-auto lg:h-screen mt-16 lg:mt-0 lg:justify-center" id="about">
 
             <h1 class="font-playfair text-white text-7xl font-semibold">
                 James 
                 <span class="text-light-pink">Maranion</span>
             </h1>
 
-            <p class="first mt-8 text-lg w-1/2">
+            <p class="first mt-8 text-lg w-4/5 lg:w-1/2">
                 James Maranion or  
                 <span class="text-light-pink">Jems</span> is a developer who graduated from <br>
                 De Lasalle College of Saint Benilde, with a degree in Information Systems. <br> <br>
@@ -48,20 +53,20 @@
                 
             </p>
          </section>
-         <section class="projects font-sen text-white h-auto" id="projects">
+         <section class="projects font-sen text-white h-auto mt-20 lg:mt-0  ml-8 mr-8" id="projects">
             <h1 class="font-playfair text-6xl font-semibold mb-10">Projects</h1>
 
-            <div class="project_area grid grid-cols-2 h-auto ">
+            <div class="project_area h-auto grid grid-rows-none lg:grid-cols-2">
                 
                 <div class="project_card"> 
-                    <div class="img-div h-4/5 overflow-hidden mr-3">
+                    <div class="img-div lg:h-4/5 overflow-hidden lg:mr-4">
                         <a href="project.html?project=1" class="project-link">
                             <img  class="rounded-lg h-full w-full ease-in duration-150 hover:scale-110" src="img/finals_pic.PNG" alt="">
                         </a>
                         
                     </div>
                     
-                    <div class="text-area w-2/3 mt-5">
+                    <div class="text-area lg:w-2/3 mt-5">
                         <h1 class="font-sen text-xl font-semibold text-white">Students Adaptability in an Online Setting Report</h1>
                         <p class="font-sen text-base text-light">
                             A PowerBi report that explores the different factors that affect a student in an online setting.
@@ -70,10 +75,10 @@
                     
                 </div>
 
-                <div class="project_card mr-8">
-                    <div class="img-div h-4/5 overflow-hidden">
+                <div class="project_card mt-10 lg:mt-0">
+                    <div class="img-div lg:h-4/5 overflow-hidden">
                         <a href="project.html?project=2" class="project-link">
-                            <img  class="rounded-md h-full ease-in duration-150 hover:scale-110" src="img/datachall.PNG" alt="">
+                            <img  class="rounded-md h-full w-full ease-in duration-150 hover:scale-110" src="img/datachall.PNG" alt="">
                         </a>
                         
                     </div>
@@ -89,10 +94,10 @@
 
             </div>
 
-            <div class="project_area_2 h-auto flex mt-20">
+            <div class="project_area_2 h-auto grid lg:mt-20 lg:grid-cols-2">
 
-                <div class="project_card mr-3">
-                    <div class="img-div h-4/5 overflow-hidden">
+                <div class="project_card mt-10 lg:mt-0">
+                    <div class="img-div lg:h-4/5 lg:mr-4 overflow-hidden">
                         <a href="project.html?project=3" class="project-link">
                             <img  class="rounded-md h-full w-full ease-in duration-150 hover:scale-110" src="img/world-happ.png" alt="">
                         </a>
@@ -107,10 +112,10 @@
                     </div>
                 </div>
 
-                <div class="project_card mr-8">
-                    <div class="img-div h-4/5 overflow-hidden">
+                <div class="project_card mt-10 lg:mt-0">
+                    <div class="img-div lg:h-4/5 overflow-hidden">
                         <a href="project.html?project=4" class="project-link">
-                            <img  class="rounded-md ease-in duration-150 hover:scale-110" src="img/hartcheck.PNG" alt="">
+                            <img  class="rounded-md h-full ease-in duration-150 hover:scale-110" src="img/hartcheck.PNG" alt="">
                         </a>
                         
                     </div>
@@ -123,12 +128,10 @@
                     </div>
                 </div>
                 
-
             </div>
 
-            
          </section>
-         <section class="about font-sen text-light h-screen flex flex-col justify-center" id="contact">
+         <section class="about font-sen text-light h-full lg:h-screen flex flex-col lg:justify-center mt-36 lg:mt-0 mb-36 lg:mb-36 ml-8 mr-8" id="contact">
             <h1 class="font-playfair text-6xl font-semibold mt-10">Contact</h1>
             <p class="email mt-10 text-light-pink text-lg">
                 jems.maranion13@gmail.com
@@ -141,5 +144,6 @@
             
 
     </main>
+
 </body>
 </html>
