@@ -18,7 +18,8 @@ const projects = {
         description: "The visualization provides a comprehensive look at students’ adaptability to online education, illustrating both the successes and challenges faced. By understanding these dynamics, educators and institutions can better support students in navigating their learning journeys.",
         contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Visuals, Data Analysis</span>",
         dataset: "<a href='https://www.kaggle.com/datasets/mdmahmudulhasansuzan/students-adaptability-level-in-online-education'>Dataset Link</a>",
-        repository: "<a href='assets/DATAVIS_Finals_Report.pbix'>Report Link</a>"
+        repository: "<a href='assets/DATAVIS_Finals_Report.pbix'>Report Link</a>",
+        pres:""
     },
     2: {
         title: "Data Science Challenge: Customer Behavior Analysis",
@@ -29,18 +30,20 @@ const projects = {
         description: "The group utilized RFM (Recency, Frequency, Monetary) analysis, time series analysis, and K-means clustering. <br> The group leveraged data science techniques to drive actionable business insights, ultimately enhancing customer satisfaction and loyalty as they gained hands-on experience with these data science techniques in a practical context.",
         contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Model Development, Data Analysis</span>",
         dataset:'',
-        repository: "<a href='https://github.com/JemsIzHere/data_science_challenge.git'>Repository Link</a>"
+        repository: "<a href='https://github.com/JemsIzHere/data_science_challenge.git'>Repository Link</a>",
+        pres:""
     },
     3: {
-        title: "World Happiness Report",
-        date: "June 2022",
+        title: "Fraud Detection Using Logistic Regression",
+        date: "June 2023",
         location: "De Lasalle College of Saint Benilde",
-        img: "img/world-happ.png",
-        description_header: "A PowerBi report that looks at the different factors that affect the happiness of a country from 2015 to 2019.",
-        description: "The World Happiness Report is a comprehensive analysis of the factors that contribute to the happiness of a country. This was an activity done to familiarize the students with PowerBi and Data Analysis.",
-        contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Visuals, Data Analysis</span>",
-        dataset:"<a href='https://www.kaggle.com/datasets/mathurinache/world-happiness-report-20152021'>Dataset Link</a>",
-        repository: "<a href='assets/World_Happiness_Report.pbix'>Report Link</a>"
+        img: "img/fraud_pic.PNG",
+        description_header: "This project aims to develop a robust fraud detection system utilizing logistic regression to identify fraudulent transactions in a financial datasets from Taiwan 2005.",
+        description: "Originally a Spark and Hive project, it was then converted to a python notebook. By analyzing historical transaction data, the model classifies transactions as either legitimate or fraudulent based on various features such as transaction amount, user behavior, and time of transaction. The goal is to enhance accuracy in fraud detection while minimizing false positives, ultimately improving the security and reliability of financial transactions.",
+        contribution: "Contribution: <br> <span class='text-light'>Research, Reporting, Model Development, Data Analysis</span>",
+        dataset:"<a href='https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data'>Dataset Link</a>",
+        repository: "<a href='https://github.com/JemsIzHere/fraud_detection_bigdata'>Repository Link</a>",
+        pres:"<a href='assets/bigdata_final_presentation.pdf'>Report Link</a>"
     },
     4: {
         title: "HärtCheck: A Mobile and Web App for Blood Pressure Monitoring",
@@ -51,7 +54,8 @@ const projects = {
         description: "HärtCheck allows users and doctors to monitor blood pressure, receive real-time alerts, and schedule doctor consultations. The app offers a user-friendly interface that simplifies blood pressure tracking, making it easy for users to log their readings and view trends over time. ",
         contribution: "Contribution: <br> UX/UI Design, Research, Mobile and Web Development",
         dataset:"",
-        repository: "<a href='https://github.com/JanTalanay/HartCheckWeb'>Repository Link</a>"
+        repository: "<a href='https://github.com/JanTalanay/HartCheckWeb'>Repository Link</a>",
+        pres:""
     }
 };
 
@@ -68,7 +72,7 @@ if (project) {
     document.getElementById('contribution').innerHTML = project.contribution;
     document.getElementById('repository').innerHTML = project.repository;
     document.getElementById('dataset').innerHTML = project.dataset;
-    document.getElementById('reference').innerHTML = project.reference;
+    document.getElementById('pres').innerHTML = project.pres;
 } else {
     document.getElementById('title').innerText = "Project not found.";
 }
